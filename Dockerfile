@@ -1,4 +1,4 @@
-FROM golang:1.17.8-buster
+FROM golang:1.25.3-trixie
 
 ARG COMMIT
 ENV COMMIT ${COMMIT:-master}
